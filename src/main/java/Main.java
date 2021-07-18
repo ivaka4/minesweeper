@@ -133,7 +133,7 @@ public class Main {
         for (int m = 0; m < mines; m++) {
             //Loops until a mine is placed.
             while (true) {
-                int x, y = 0;   //Clears vars.
+                int x, y = 0;
                 x = (int) (board.length * Math.random());
                 y = (int) (board[0].length * Math.random());
 
